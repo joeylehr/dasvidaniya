@@ -11,7 +11,6 @@ def open_sesame
 end
 
 def scrambler(message, format) 
-  binding.pry
   arr = []
   message = message.split("") 
   message.each do |letter|
